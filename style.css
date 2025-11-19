@@ -1,6 +1,6 @@
 body {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 0%;
     padding: 3%;
     font-size: 15px;
@@ -19,12 +19,12 @@ header{
     line-height: 1;
 }
 header > div > h1{
-    font-size: 75px;
+    font-size: 11vh;
     margin-bottom: 5px;
 }
 header > div > p{
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 2.5vh;
     letter-spacing: 1.2px;
 }
 span{
@@ -109,7 +109,7 @@ footer{
 }
 footer p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 2vh;
     margin-bottom: 0%;
 }
 .link{
@@ -119,4 +119,3 @@ footer p{
 .link img{
     width: 5%;
 }
-
