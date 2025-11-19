@@ -76,7 +76,6 @@ main > div > p{
 .image > img{
     border: 1px solid whitesmoke;
     max-width: 100%;
-    height: auto;
 }
 .image > div{
     font-family: 'Poppins', sans-serif;
@@ -119,3 +118,4 @@ footer p{
 .link img{
     width: 5%;
 }
+
