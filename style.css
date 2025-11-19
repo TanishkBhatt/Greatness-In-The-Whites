@@ -19,12 +19,12 @@ header{
     line-height: 1;
 }
 header > div > h1{
-    font-size: 11vh;
+    font-size: 70px;
     margin-bottom: 5px;
 }
 header > div > p{
     margin-top: 5px;
-    font-size: 2.5vh;
+    font-size: 16px;
     letter-spacing: 1.2px;
 }
 span{
@@ -118,4 +118,5 @@ footer p{
 .link img{
     width: 5%;
 }
+
 
