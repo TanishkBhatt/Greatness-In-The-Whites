@@ -119,7 +119,6 @@ footer p{
 .link img{
     width: 5%;
 }
-
-
-
-
+.link:hover{
+    transform : scale(1.01);
+}
