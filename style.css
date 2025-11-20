@@ -50,7 +50,8 @@ main{
     background-color: rgba(127, 127, 255, 0.2);
     box-sizing: border-box;
     box-shadow: 8px 0px 25px 5px black;
-    transition: 0.4s;
+    transition: 0.5s;
+    transform: scale(1.02);
 }
 main > div > h2{
     font-family: 'Times New Roman', Times, serif;
@@ -118,6 +119,7 @@ footer p{
 .link img{
     width: 5%;
 }
+
 
 
 
