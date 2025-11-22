@@ -115,9 +115,10 @@ footer p{
 }
 .link{
     display: inline;
-    padding: 2px;
+    padding: 4px;
 }
 .link img{
-    width: 5%;
+    width: 4vmax;
 }
+
 
