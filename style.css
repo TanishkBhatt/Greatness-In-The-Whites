@@ -1,6 +1,7 @@
 body {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 0%;
     margin-bottom: 0%;
     padding: 3%;
     font-size: 15px;
@@ -45,12 +46,12 @@ main{
     padding: 4%;
     box-sizing: border-box;
     margin-bottom: 7%;
+    transition: 0.5s;
 }
 .card:hover{
     background-color: rgba(127, 127, 255, 0.2);
     box-sizing: border-box;
     box-shadow: 8px 0px 25px 5px black;
-    transition: 0.5s;
     transform: scale(1.02);
 }
 main > div > h2{
@@ -111,14 +112,11 @@ footer{
 footer p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2vh;
-    margin-bottom: 0%;
+    margin-bottom: 0.75%;
 }
-.link{
+.contact{
     display: inline;
-    padding: 4px;
 }
-.link img{
-    width: 4vmax;
+.contact img{
+    width: 5vmin;
 }
-
-
