@@ -10,34 +10,40 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-header{
+
+header {
     margin: 2%;
     margin-top: 0%;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     line-height: 1;
 }
-header > div > h1{
+
+header>div>h1 {
     font-size: 75px;
     margin-bottom: 5px;
 }
-header > div > p{
+
+header>div>p {
     margin-top: 5px;
     font-size: 18px;
     letter-spacing: 1.2px;
 }
-span{
+
+span {
     color: #1100ff;
 }
-main{
+
+main {
     display: block;
     align-items: center;
     justify-content: center;
     margin: 0%;
 }
-.card{
+
+.card {
     background-color: rgba(255, 255, 255, 0.5);
     color: rgb(0, 0, 0);
     border-radius: 10px;
@@ -48,13 +54,15 @@ main{
     margin-bottom: 7%;
     transition: 0.5s;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgba(127, 127, 255, 0.2);
     box-sizing: border-box;
     box-shadow: 8px 0px 25px 5px black;
     transform: scale(1.02);
 }
-main > div > h2{
+
+main>div>h2 {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -62,68 +70,68 @@ main > div > h2{
     color: #1100ff;
     font-size: 35px;
 }
-main > div > p{
+
+main>div>p {
     margin: 2%;
     margin-bottom: 6%;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
-.image{
+
+.image {
     padding: 0%;
     display: flex;
     gap: 20px;
     align-self: flex-start;
 }
-.image > img{
+
+.image>img {
     border: 1px solid whitesmoke;
     max-width: 100%;
     height: auto;
 }
-.image > div{
+
+.image>div {
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
-    height: 300px;
+    height: 230px;
     width: 100%;
     margin: 3%;
-    font-size: 16px;
+    font-size: 14px;
     overflow: auto;
     line-height: 1.4;
     text-overflow: clip;
-} 
-@media (max-width: 800px){
-    .image{
+}
+
+@media (max-width: 800px) {
+    .image {
         flex-direction: column;
     }
-    .image > img{
+
+    .image>img {
         width: 100%;
     }
-    .image > div{
+
+    .image>div {
         width: 100%;
     }
-    header > div > h1{
-    font-size: 65px;
+
+    header>div>h1 {
+        font-size: 65px;
     }
-    header > div > p{
-    font-size: 16px;
+
+    header>div>p {
+        font-size: 16px;
     }
 }
-footer{
-    margin-top: 0%;
-    width: 100%;
-    height: 100px;
+
+footer {
     display: flex;
     justify-content: center;
 }
-footer p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2vh;
-    margin-bottom: 0.75%;
-}
-.contact{
-    display: inline;
-}
-.contact img{
-    width: 5vmin;
-}
 
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
